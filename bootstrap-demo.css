@@ -1,7 +1,18 @@
 body{
 	font-family: "microsoft yahei", sans-serif;
 }
+.mai-icon{
+	background: rgb(64,210,177);
+	color: #fff;
+	border-radius: 50%;
+	width:40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+}
 
+/*导航*/
 .navbar-default{
 	background-color: #fff;
 	border: none;
@@ -87,4 +98,112 @@ body{
 }
 #bbs h3{
 	font-weight: bold;
+}
+
+
+/*html5、bootstrap*/
+#html5{
+	background: #F8F8F8;
+}
+#html5, #bootstrap{
+	padding: 80px 0;
+}
+#html5 h2, #bootstrap h2{
+	font-weight: bold;
+}
+#html5 p{
+	line-height: 25px;
+}
+#bootstrap p{
+	line-height: 40px;
+}
+
+/*course*/
+#course{
+	background: #F8F8F8;
+	padding: 80px 0;
+	text-align: center;
+}
+#course h2{
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+.course{
+	background: #fff;
+}
+.course .btn{
+	background: transparent;
+	border: 1px solid #40d2b1;
+	border-radius: 0;
+	color: #40d2b1;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 8px 40px;
+	transition: all .3s;
+}
+.course .btn:hover{
+	background: #40d2b1;
+	color: #fff;
+}
+
+/*app*/
+#app{
+	padding: 80px 0;
+}
+#app h2{
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+#app .btn{
+	margin: 10px 0;
+	background: #40d2b1;
+	border-color: #40d2b1;
+	border-radius: 0;
+	padding: 6px 30px;
+	transition: all .3s;
+}
+#app .btn:hover{
+	background: #2e9a82;
+}
+
+
+/*contact*/
+#contact{
+	background: url(images/contact-bg.png) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+#contact h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+#contact p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#contact .form-control{
+	border: none;
+	border-radius: 0;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#contact textarea.form-control{
+	height: auto;
+}
+#contact input[type="submit"]{
+	background: #40D2B1;
+	color: #fff;
+	font-weight: bold;
+	transition: all .3s;
+}
+#contact input[type="submit"]:hover{
+	background: #2e9a82;
+}
+
+/*footer*/
+footer{
+	font-weight: 400;
+	text-align: center;
+	padding: 20px;
 }
